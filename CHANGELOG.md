@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.27.0](https://github.com/agentclientprotocol/typescript-sdk/compare/v0.26.0...v0.27.0) (2026-06-18)
+
+This is a big release! We have rewritten the SDK to have a more ergonomic design for creating new agents and clients. You can read more in the [Migration Guide](https://github.com/agentclientprotocol/typescript-sdk/blob/main/MIGRATION_0.26_0.27.md) for how to migrate.
+
+For now, you will still have the old interfaces available to ease the migration, but they are deprecated and will be removed in a future release.
+
+### Features
+
+* Experimental Streamable HTTP & WebSocket Transport ([#155](https://github.com/agentclientprotocol/typescript-sdk/issues/155)) ([d6a3d88](https://github.com/agentclientprotocol/typescript-sdk/commit/d6a3d88107d3a4440479a1aba3c664eccd384661))
+* New SDK design (see MIGRATION_0.26_0.27.md) ([#181](https://github.com/agentclientprotocol/typescript-sdk/issues/181)) ([87e2df3](https://github.com/agentclientprotocol/typescript-sdk/commit/87e2df33b5c8a010bd9e4d750c5a6a32ecb82388))
+
 ## [0.26.0](https://github.com/agentclientprotocol/typescript-sdk/compare/v0.25.1...v0.26.0) (2026-06-16)
 
 
